@@ -166,21 +166,17 @@ main .board .catalog
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 14px;
+    margin-left: 30px;
 }
 main .board .search
 {
     display: inline-block;
     position: absolute;
     border-radius: 10px;
-    width: 200px;
+    width: 210px;
     margin-top: 17px;
     height: 25px;
     left: 80%;
-}
-@media (max-width: 1556px) {
-    .main .board .search {
-        width: 180px;
-    }
 }
 main .board .filter
 {
