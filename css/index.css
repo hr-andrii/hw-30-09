@@ -45,16 +45,6 @@ header nav .menu a {
     padding: 5px;
 }
 
-@media (min-width: 2000px) {
-    header nav {
-        display: flex;
-        align-items: center;
-    }
-
-    header nav .menu {
-        flex: 1;
-    }
-}
 .personal_client
 {
     margin-left: 450%;
@@ -153,6 +143,7 @@ article.product .product-buttons {
 .board
 {
     background-color: #19253b;
+    position: relative;
     font-family: Century;
     font-size: 20px;
     color: white;
